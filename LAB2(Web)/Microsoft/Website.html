@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Microsoft</title>
+    <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0; 
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #fff;
+        color: #000;
+        font-size: 16px;
+        line-height: 1.5;
+
+    }   
+    .container{
+        width: 90%;
+        max-width: 1100px;
+        margin:auto;
+    }
+    /* nav Bar */
+    a{
+        color: #000000;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+    .nav-bar{   
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        height: 60px;
+        padding: 20px 0px;
+    }
+    .logo img{
+        width: 160px;
+    }
+    .menu-left{
+        display:flex;
+        flex:1;
+        padding-left: 5px;
+
+    }
+    .menu-right{
+        display:flex;
+    }
+    .nav-bar ul li{
+        padding: 0px 10px;
+        padding-bottom: 5px;
+    }
+    .nav-bar ul li:hover{
+        border-bottom:#e9dcdc solid 2px;
+    }
+    
+    .btn{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #302c2c;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .btn:hover{
+        opacity: 0.9;
+    }
+    .main-area{
+        width: 100%;
+        height: 520px;
+        background:url("Images/Microsoft1.webp") no-repeat center center/cover;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        justify-content: flex-end;
+        padding-bottom: 120px;
+        margin-bottom: 50px;
+    }
+    .inner-content{
+        margin-left: 30px;
+        width: 30%;
+    }
+    .inner-content h1, .inner-content p{
+       margin-bottom: 22px; 
+       color: rgb(255, 255, 255);
+    }
+    .inner-content h1{
+        font-size: 32px;
+        color:aliceblue;
+    }
+    
+    .dada{
+        width:230px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .lodo{
+        width:230px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+
+    }
+    .lala{
+        width:230px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        font-size: 14px;
+        color: rgb(74, 74, 92);
+        font-family: Arial, Helvetica, sans-serif,sans-serif;
+    
+    }
+    .dala{
+       width:230px;
+       margin-left: 20px;
+       margin-right: 20px;
+       color: rgb(15, 15, 240);
+       font-size: 15px;
+       flex-direction: column;
+
+    }
+    
+   
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--Nav Bar-->
+        <nav class="nav-bar">
+            <div class="logo"><img src="Images/microsoft-logo-1.png" alt=""></div>
+            <ul class="menu-left">
+                <li><a href="#">Microsoft 365</a></li>
+                <li><a href="#">Office</a></li>
+                <li><a href="#">Windows</a></li>
+                <li><a href="#">Поддержка</a></li>
+            </ul>
+            <ul class="menu-right">
+                <li><a href="#">All Microsoft</a>
+                <i class="fas fa-chevron-down"></i>
+                </li>
+                <li><a href="#">Search</a>
+                <i class="fas fa-search"></i>
+                </li>
+                <li><a href="#">Card</a>
+                <i class="fas fa-shopping-cart"></i>
+                </li>
+                <li><a href="#">Sign In</a>
+                <i class="fas fa-user-circle"></i>
+            </ul>
+        </nav>
+        
+        <header class="main-area">
+            <div class="inner-content">
+                <h1>Разработано для жизни — сегодня и в будущем</h1>
+                <p>Следующее поколение игр. Ваши цели. Друзья и семья. С Windows 11 вы станете еще ближе к тому, что успели полюбить.
+                </p>
+                <a class="btn" href="#">Проверьте, готов ли ваш ПК<i class="fas fa-chevron-right"></i></a>
+                
+
+            </div>    
+
+        </header>
+        <!--Icon Section-->
+        <div class= "icons">
+            <table>
+                <thead>
+                    <tr>
+                   <th><a href=""><img class="dada" src="Images/Mic1.png"></a></th>
+                   <th><a href=""><img class="dada" src="Images/Mic2.png"></a></th>
+                
+                   <th><a href=""><img class="dada" src="Images/mic3.png"></a></th>
+                 
+                   <th><a href=""><img class="dada" src="Images/mic4.png"></a></th>
+                 
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                     
+                        <td><h4 class="lodo"><a href="">Choose your Microsoft 365</a><br></h4></td>
+                        <td><h4 class="lodo"><a href="">Microsoft Edge</a></h4></td>
+                        <td><h4 class="lodo"><a href="">Microsoft OneDrive</a></h4></td>
+                        <td><h4 class="lodo"><a href="">OneNote</a></h4></td>
+                        
+                     
+ 
+                    </tr>
+                    <tr>
+                        <td><h4 class="lala"><a href="">Приложения и функции, которые помогут вам воплотить идеи в реальность, оставаться в безопасности и сосредоточиться на важных вещах в жизни.</a></h4></td>
+                        <td><h4 class="lala"><a href="">Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</a></h4></td>
+                        <td><h4 class="lala"><a href="">Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</a></h4></td>
+                        <td><h4 class="lala"><a href="">Приведите свои заметки и дела в порядок.</a></h4></td>
+                        
+                    </tr>
+                <tr>
+                
+                     <td><a class="dala" href="">Для 1 человека<i class="fas fa-chevron-right"></i></a></i></td>
+                     <td><a class="dala" href="">Скачать<i class="fas fa-chevron-right"></i></a></td>
+                     <td><a class="dala" href="">Подробнее<i class="fas fa-chevron-right"></i></a></td>
+                     <td><a class="dala" href="">Узнать больше<i class="fas fa-chevron-right"></i></a></td>
+                        
+                </tr>
+
+                
+                </tbody>
+                   
+            
+
+            </table>
+
+        </div>
+    </div>      
+
+</body>
+</html>
