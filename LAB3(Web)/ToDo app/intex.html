@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+        <header>
+            <p>ToDo List</p>
+        </header>
+        <div class="main">
+            <p>ToDo List<p>
+            <div class="add_tasks">
+                <input class="new_task" type="text" placeholder="New task">
+                <button class="add_button" onclick="addTask()">Add</button>
+            </div>
+            <div class="all_tasks">
+                <div class="one_task">
+                    <label class="one_new_task">
+                        <input class="checkbox" type="checkbox">
+                        <span class="task_name">Create Todo List</span>
+                    </label>
+                    <img class="delete_img" src="delete.png">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="todo.js"></script>
+</html>
