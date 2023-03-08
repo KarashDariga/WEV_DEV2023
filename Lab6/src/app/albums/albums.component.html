@@ -1,0 +1,16 @@
+<h1>Album List</h1>
+
+<div *ngIf="loaded">
+  <div *ngFor="let album of albums" class="album">
+
+    <div>
+      <a routerLink="/albums/{{album.id}}" class="album-title">
+        {{album.id}}. {{album.title}}
+      </a>
+    </div>
+
+    <button id="remove" (click)="removeAlbum(album.id)">Remove</button>
+  </div>
+</div>
+
+<h3 *ngIf="!loaded">Albums are loading...</h3>
